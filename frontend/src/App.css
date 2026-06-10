@@ -13,11 +13,13 @@ body {
 
 .container {
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 40px;
 }
+
 
 .card {
   width: 100%;
